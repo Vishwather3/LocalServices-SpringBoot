@@ -1,0 +1,25 @@
+2023-09-01T11:52:33.190+05:30  INFO 12688 --- [restartedMain] com.product.project.projectApplication   : Starting projectApplication using Java 17.0.7 with PID 12688 (D:\Springboot\LocalService2.0\target\classes started by Shruti in D:\Springboot\LocalService2.0)
+2023-09-01T11:52:33.193+05:30  INFO 12688 --- [restartedMain] com.product.project.projectApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-09-01T11:52:33.461+05:30  INFO 12688 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-01T11:52:33.475+05:30  INFO 12688 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 3 JPA repository interfaces.
+2023-09-01T11:52:33.595+05:30  INFO 12688 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8188 (http)
+2023-09-01T11:52:33.597+05:30  INFO 12688 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-01T11:52:33.597+05:30  INFO 12688 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-09-01T11:52:33.622+05:30  INFO 12688 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-01T11:52:33.622+05:30  INFO 12688 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 425 ms
+2023-09-01T11:52:33.666+05:30  INFO 12688 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-09-01T11:52:33.677+05:30  INFO 12688 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-09-01T11:52:33.678+05:30  INFO 12688 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-09-01T11:52:33.679+05:30  INFO 12688 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2023-09-01T11:52:33.699+05:30  INFO 12688 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1f074d32
+2023-09-01T11:52:33.700+05:30  INFO 12688 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2023-09-01T11:52:33.701+05:30  WARN 12688 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-09-01T11:52:33.716+05:30  INFO 12688 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-09-01T11:52:33.762+05:30  INFO 12688 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-09-01T11:52:33.816+05:30  INFO 12688 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-01T11:52:33.917+05:30  WARN 12688 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-01T11:52:34.089+05:30  INFO 12688 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-09-01T11:52:34.105+05:30  INFO 12688 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8188 (http) with context path ''
+2023-09-01T11:52:34.112+05:30  INFO 12688 --- [restartedMain] com.product.project.projectApplication   : Started projectApplication in 0.974 seconds (process running for 8438.409)
+2023-09-01T11:52:34.114+05:30  INFO 12688 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-09-01T14:20:43.556+05:30  WARN 12688 --- [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=2h2m42s845ms318µs600ns).
